@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat",sans-serif;
+    line-height: 1.4rem;
+    color: black;
+    /* background: white; */
+}
+
+
+
+/* ========== Common ========== */
+.container{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+section{
+    margin-bottom: 5rem;
+}
+
+h1{
+    line-height: 2.7rem;
+}
+/* =============== COMMON ENDS ============== */
+
+
+
+
+/* ============NAV BAR========== */
+nav{
+    width: 100vw;
+    height: 2.5rem;
+    background: white;
+    border-bottom: 0.7px solid rgb(235, 233, 233);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.nav__container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 100%;
+    margin-top: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.nav__menu{
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+}
+
+.nav__menu a{
+    color: black;
+    font-size: 0.9rem;
+    transition: all 400ms ease;
+}
+
+.nav__menu a:hover{
+    color: red;
+}
+
+/* ======= NAV BAR ENDS ==============*/
+
+
+
+
+/* ======= HEADER ======== */
+header{
+    width: 100vw;
+    height: 46vw;
+    position: relative;
+    top: 5rem;
+    overflow: hidden;
+    margin-bottom: 5rem;
+}
+
+.header__container{
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_article{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    display: block;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 72%;
+}
+/* ================= HEADER ENDS ===================== */
+
+
+
+
+/* =========== SECTION-1 STARTS ========== */
+.section1{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.right{
+    height: 100%;
+    text-align: right;
+    line-height: 1.7rem;
+}
+
+.right h2{
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.right p{
+    direction:rtl;
+    text-align:justify;
+}
+
+.left h1{
+    padding-top: 1.6rem;
+}
+
+.left{
+    height: 100%;
+}
+
+/* ============= SECTION-1 ENDS ================= */
+
+
+
+/* ============= SECTION-2 ============== */
+.section2{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 0.1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.category{
+    padding: 2rem;
+    border-radius: 2px;
+    transition: all 400ms ease;
+}
+
+.card{
+    width: 18rem;
+}
+
+.card3{
+    width: 17rem;
+    height: 12.1rem;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.category:nth-child(1){
+    background:#feebed;
+}
+
+.category:nth-child(2){
+    background:#eaf9f4;
+}
+
+.category:nth-child(3){
+    background:#fff8e8;
+}
+
+.category:hover{
+    cursor: pointer;
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+}
+/* ============= SECTION-2 ENDS ================== */
+
+
+
+/* ================== FOOTER =================== */
+footer{
+    width: 100vw;
+    height: 2.5rem;
+    background: #008aff;
+}
+
+.footer__container{
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* ================== FOOTER ENDS ==================== */
