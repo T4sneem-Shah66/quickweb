@@ -1,0 +1,21 @@
+Following is the list of some semantic elements that convey meaning to the browser:
+
+article
+aside
+details
+figcaption
+figure
+footer
+form
+header
+main
+mark
+nav
+table
+section
+
+
+Following is the list of some non-semantic elements that does not convey meaning to the browser:
+
+div
+span
